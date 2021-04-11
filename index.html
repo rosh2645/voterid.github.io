@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Voter registration form</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body style="background-color:#f6f5f5;">
+  <div class="headerdata">
+
+
+    <header>
+      <center>
+        <table class="tabledata">
+          <tr>
+            <td><img src="flag img.png" height="75" width="120"></td>
+            <td style="padding:15px;">
+              <h4 style="color:white;">राष्ट्रीय मतदाता सेवा <br>
+                <center>पोर्टल </center> </br>
+              </h4>
+            </td>
+            <td style="padding:15px;">
+              <h4 style="color:white;">NATIONAL VOTER"S SERVICES DEMO<br>
+                <center>PORTAL</center> </br>
+              </h4>
+            </td>
+            <td style=" padding:15px; "><img style="background-color:white;" src="vote img.png" height="75" width="120"></td>
+          </tr>
+        </table>
+      </center>
+    </header>
+  </div>
+  <nav>
+    <div class="middle">
+      <h3>Electoral Registration Officer,</h3>
+
+
+      <table align="center" cellpadding="20px">
+        <tr>
+          <td>STATE <span class="required">*</span>
+
+          </td>
+
+          <td>
+
+            <select name="state" id="state" class="form-control" required>
+              <option value="select">select</option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Lakshadweep">Lakshadweep</option>
+              <option value="Puducherry">Puducherry</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="West Bengal">West Bengal</option>
+            </select>
+          </td>
+          <td>
+            District <span class="required">*</span></td>
+          <td>
+            <select name="District" id="state" class="form-control" required>
+              <option value="select">select</option>
+          </td>
+        <tr>
+          <td>Legislative Assembly/Parliamentary constituency <span class="required">*</span></td>
+          <td>
+
+            <select name="Legislative Assembly/Parliamentary constituency" id="Legislative Assembly/Parliamentary constituency" class="form-control" required>
+              <option value="select">select</option>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <center>I request that my name be included in electoral rolls for all the aforesaid areas.</center>
+          </td>
+        </tr>
+        <tr>
+
+          <td>
+
+            <input type="radio" name="voter status" value="First Time Voter" />First Time Voter
+          </td>
+        </tr>
+        <tr>
+          <td>
+
+            <input type="radio" name="voter status" value="Due to transfer from other meeting areas" />Due to transfer from other meeting areas
+          </td>
+        </tr>
+        <tr>
+          <td>(T)Disability if any</td>
+
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="Disability" value="Visual Impairment" />Visual Impairment
+          </td>
+
+
+          <td>
+            <input type="checkbox" name="Disability" value="Speech and hearing Impairment" />Speech and hearing Impairment
+          </td>
+          <td>
+            <input type="checkbox" name="Disability" value="Motion Disabling" />Motion Disabling
+          </td>
+          <td><input type="checkbox" name="Disability" value="other" />other<input type=text name="other"></td>
+        </tr>
+        <tr>
+          <td>
+            <form class="" action="index.html" method="post">
+              (Th)Email ID (Optional)<input type="text" name="email id" size="40">
+
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <form class="" action="index.html" method="post">
+              (D) mobile number (Optional) +91<input type="text" name="mob no" size="40">
+
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <form class="" action="index.html" method="post">
+              Your Photo<span class="required"> *</span><input type="file" id="myfile" name="myfile">
+
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>
+
+            Age proof<span class="required"> *</span><input type="file" id="myfile" name="myfile">
+          </td>
+          <td>
+            <label for="Document type">Document type<span class="required">*</span></label>
+          </td>
+          <td>
+            <select name="Document type " id="Document type" class="form-control" required>
+              <option value="select">select</option>
+          </td>
+
+          </td>
+        </tr>
+        <tr>
+          <td>
+
+            Adress proof<span class="required"> *</span><input type="file" id="myfile" name="myfile">
+          </td>
+          <td>
+            <label for="Document type">Document type<span class="required">*</span></label>
+          </td>
+          <td>
+            <select name="Document type " id="Document type" class="form-control" required>
+              <option value="select">select</option>
+          </td>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+  </nav>
+  <footer style="background-color:black;text-align:center; padding:20px;">
+    <h6 style="color:grey;size:18px;">Copyright ©2018 Suven consultants and technolofy Pvt. Ltd.</h6>
+  </footer>
+
+</body>
+
+</html>
